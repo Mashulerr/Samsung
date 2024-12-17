@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="@color/dark_gray">
+
+    <ImageView
+        android:id="@+id/myImageView"
+        android:layout_width="400dp"
+        android:layout_height="500dp"
+        android:layout_gravity="center"
+        android:src="@drawable/background" />
+
+    <Button
+        android:id="@+id/button_welcome"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:text="@string/welcome_message"
+        android:background="@color/black"/>
+
+    <Button
+        android:id="@+id/button_email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/button_welcome"
+        android:layout_marginTop="11dp"
+        android:layout_marginBottom="16dp"
+        android:background="@color/black"
+        android:text="@string/email_subject" />
+
+    <Button
+        android:id="@+id/button_website"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/button_email"
+        android:layout_marginTop="381dp"
+        android:text="@string/open_website" />
+
+    <include layout="@layout/strings" />
+
+
+</RelativeLayout>
+

@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Samsung</string>
+    <string name="welcome_message">Добро пожаловать в IT школу Samsung</string>
+    <string name="email_subject">Поступление в IT школу Samsung</string>
+    <string name="button_welcome">Добро пожаловать</string>
+    <string name="button_email">Отправить письмо</string>
+    <string name="button_website">Открыть сайт</string>
+
+
+    <string-array name="languages_array">
+        <item>English</item>
+        <item>Русский</item>
+        <item>한국어</item>
+    </string-array>
+
+</resources>
